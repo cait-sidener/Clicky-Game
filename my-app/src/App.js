@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
-import Container from "./Container";
-import Row from "./Row";
-import Col from "./Col";
+import Container from "./components/Container";
+import Row from "./components/Row";
+import Col from "./components/Col";
 import friends from "./friends.json";
 import Nav from "./components/Nav";
 import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
 import "./App.css";
 
-function shuffleList(array) {
+function shuffleFriends(array) {
     for(var i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
@@ -60,9 +60,9 @@ class App extends Component {
     }
 
     handleShuffle = () => {
-        let shuffleList = shuffleList(friends);
-        this.setState({ friends: shuffleList });
-    };
+        let shuffledFriends = shuffleFriends(friends);
+        this.setState({ friends: shuffledFriends });
+      };
 
     render() {
         return (
@@ -81,7 +81,7 @@ class App extends Component {
 
                 <Container>
                     <Row>
-                        {this.state.friends.map(friend => {
+                        {this.state.friends.map(friend => (
                             <Col size="md-3 sm-6">
                                 <FriendCard
                                     key={friend.id}
@@ -93,10 +93,12 @@ class App extends Component {
                                     image={friend.image}
                                     />
                             </Col>
-                        })}
+                        ))}
                     </Row>
                 </Container>
             </Wrapper>
-        )
+        );
     }
 }
+
+export default App;

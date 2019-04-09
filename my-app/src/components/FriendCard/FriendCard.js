@@ -1,8 +1,7 @@
 import React from "react";
 import "./FriendCard.css";
 
-function FriendCard(props) {
-    return (
+const FriendCard = props => (
         <div className="card">
         value={props.id}
         onClick={() => props.handleClick(props.id)}
@@ -12,6 +11,5 @@ function FriendCard(props) {
         </div>
         </div>
     );
-}
 
 export default FriendCard;
