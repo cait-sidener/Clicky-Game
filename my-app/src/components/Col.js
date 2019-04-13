@@ -2,7 +2,7 @@ import React from "react";
 
 // This Col component offers the convenience of setting a column's Column prop instead of its className
 
-function Col(props) {
+const Col = props => {
     const size = props.size.split(" ").map(size => "col-" + size).join(" ");
 
     return (
@@ -10,6 +10,6 @@ function Col(props) {
         {props.children}
         </div>
     );
-}
+};
 
 export default Col;

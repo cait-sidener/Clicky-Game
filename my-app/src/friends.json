@@ -16,32 +16,38 @@
         "name": "Brienne of Tarth",
         "image": "https://i.ytimg.com/vi/cBnmDQKL8yk/maxresdefault.jpg",
         "clicked": false
-    },{
+    },
+    {
         "id": 4,
         "name": "Sansa Stark",
         "image": "https://fsmedia.imgix.net/b3/b7/bd/dd/4f39/4652/9405/9ef45bb8ce52/sansa-stark-game-of-thrones.jpeg?auto=format%2Ccompress&h=1200&w=1200&crop=edges&fit=crop",
         "clicked": false
-    },{
+    },
+    {
         "id": 5,
         "name": "Yara Greyjoy",
         "image": "https://vignette.wikia.nocookie.net/gameofthrones/images/a/a8/Game_of_thrones_6x5_yara_promo.jpg/revision/latest?cb=20160808022737",
         "clicked": false
-    },{
+    },
+    {
         "id": 6,
         "name": "Melisandre",
         "image": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/melisandre-1920.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg",
         "clicked": false
-    },{
+    },
+    {
         "id": 7,
         "name": "Cersie Lannister",
         "image": "https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2018%2F09%2FCersei-Lannister.jpg&w=736&h=485&c=sc",
         "clicked": false
-    },{
+    },
+    {
         "id": 8,
         "name": "Olenna Tyrell",
         "image": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/olenna-tyrell-1920.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg",
         "clicked": false
-    },{
+    },
+    {
         "id": 9,
         "name": "Meera Reed",
         "image": "https://heavyeditorial.files.wordpress.com/2017/08/meera-e1501983840358.jpeg?quality=65&strip=all&w=780",
@@ -52,13 +58,15 @@
         "image": "https://vignette.wikia.nocookie.net/lgbt/images/8/85/Ellaria_Sand.jpg/revision/latest/scale-to-width-down/342?cb=20161123220722",
         "clicked": false
 
-    },{
+    },
+    {
         "id": 11,
         "name": "Missandei",
         "image": "https://vignette.wikia.nocookie.net/gameofthrones/images/0/0d/Profile-Missandei.PNG/revision/latest/scale-to-width-down/314?cb=20170818044646",
         "clicked": false
 
-    },{
+    },
+    {
         "id": 12,
         "name": "Lyanna Mormont",
         "image": "https://media.vanityfair.com/photos/57b12eabf114d3ca724a0df1/master/w_768,c_limit/lyanna-mormont.jpg",

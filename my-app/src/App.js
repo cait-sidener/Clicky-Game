@@ -10,12 +10,12 @@ import Wrapper from "./components/Wrapper";
 import "./App.css";
 
 function shuffleFriends(array) {
-    for(var i = array.length - 1; i > 0; i--) {
+    for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
-}
+};
 
 class App extends Component {
     state = {
@@ -68,7 +68,7 @@ class App extends Component {
         return (
             <Wrapper>
                 <Nav
-                title="Game of Queens Clicky Game"
+                title="Game of Queens"
                 score={this.state.currentScore}
                 topScore={this.state.topScore}
                 winLose={this.state.winLose}

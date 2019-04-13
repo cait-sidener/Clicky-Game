@@ -1,0 +1,12 @@
+.wrapper {
+    align-content: flex-start;
+    background: rgb(175, 175, 175);
+    background-image: url('https://imgix.bustle.com/uploads/image/2018/12/18/dc990bc3-5c87-46a7-858e-71e6a51cdf5a-iron-throne.jpg?w=1020&h=574&fit=crop&crop=faces&auto=format&q=70&dpr=2');
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    justify-content: space-around;
+    overflow: auto;
+    padding-bottom: 50px;
+    width: 100%;
+}
